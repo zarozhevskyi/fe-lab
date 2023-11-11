@@ -186,6 +186,8 @@ body {
 
 .product-photos-list-item {
   display: block;
+  border-radius: 12px;
+  overflow: hidden;
 }
 
 .product-photos-list-item[selected] {
@@ -202,6 +204,8 @@ body {
 
 .product-photo-container {
   position: relative;
+  border-radius: 12px;
+  overflow: hidden;
 }
 
 .product-photo {
