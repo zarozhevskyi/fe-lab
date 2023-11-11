@@ -233,3 +233,91 @@ body {
   cursor: pointer;
   opacity: 0.5;
 }
+
+.size-section {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.size-title {
+  font-size: 24px;
+}
+
+.size-sub-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #202020;
+  margin-bottom: 16px;
+}
+
+.size-text {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.size-small-text {
+  font-size: 16px;
+}
+
+.size-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.size-list {
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+  width: 330px;
+  gap: 15px;
+}
+
+.size-list-item {
+  display: block;
+}
+
+.size-list-input {
+  display: none;
+  visibility: hidden;
+}
+
+.size-list-label {
+  display: flex;
+  width: 100px;
+  height: 42px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+
+.size-list-label:hover {
+  cursor: pointer;
+}
+
+.size-list-input:checked + .size-list-label {
+  background-color: #e0e0e0;
+}
+
+.size-button {
+  display: block;
+  width: 300px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 48px;
+  transition: opacity 150ms linear;
+}
+
+.size-button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
