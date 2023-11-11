@@ -557,12 +557,12 @@ body {
   margin-bottom: 12px;
 }
 
-input[type="checkbox"] + label {
+.feedback-form-input[type="checkbox"] + label {
   display: block;
   margin-left: 12px;
 }
 
-input[type="radio"] + label {
+.feedback-form-input[type="radio"] + label {
   display: block;
   margin-left: 12px;
 }
