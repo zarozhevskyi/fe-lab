@@ -498,3 +498,81 @@ body {
 .total-form-list-item-button-apple-pay:hover {
   border: 1px solid black;
 }
+
+.demo-sections-wrapper {
+  display: flex;
+  padding: 24px;
+}
+
+.filters-aside {
+  width: 220px;
+  border-right: 1px solid black;
+}
+
+.demo-content-wrapper {
+  padding-left: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.demo-article-content .demo-article-title {
+  font-size: 24px;
+}
+
+.demo-article-title ~ .demo-article-text {
+  font-size: 16px;
+}
+
+.demo-article-text::first-line {
+  font-weight: 600;
+}
+
+.feedback-title {
+  margin-bottom: 16px;
+}
+
+.feedback-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.feedback-label {
+  display: block;
+  width: 100px;
+  font-weight: 600;
+}
+
+.feedback-input {
+  width: 200px !important;
+  height: 40px !important;
+  resize: none;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.feedback-subtitle {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+input[type="checkbox"] + label {
+  display: block;
+  margin-left: 12px;
+}
+
+input[type="radio"] + label {
+  display: block;
+  margin-left: 12px;
+}
+
+.table-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.size-table {
+  border: 1px solid black;
+}

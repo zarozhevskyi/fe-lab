@@ -72,143 +72,166 @@
       </a>
     </header>
     <main class="main">
-      <aside><h2>Filters section TBI</h2></aside>
-      <article>
-        <h2>Sports colthes evolution</h2>
-        <p>
-          The evolution of sports clothing has witnessed a remarkable
-          transformation from the early days of cumbersome, everyday attire to
-          today's high-performance, specialized gear.
-        </p>
-        <p>
-          In the late 19th century, as organized sports gained popularity,
-          athletes began to adopt specific clothing styles tailored to their
-          respective activities, such as the introduction of white attire in
-          cricket and tennis to combat heat.
-        </p>
-        <p>
-          The mid-20th century saw a pivotal shift with the introduction of
-          synthetic materials like nylon, polyester, and spandex,
-          revolutionizing sportswear with their moisture-wicking and stretch
-          properties.
-        </p>
-        <p>
-          With the fitness boom in the 1970s and 1980s, form-fitting leotards,
-          tights, and tracksuits became fashionable, combining style with
-          functionality for various exercise routines.
-        </p>
-        <p>
-          Today, sports clothing not only prioritizes performance-enhancing
-          fabrics but also embraces sustainability and personalization, offering
-          athletes a wide range of options designed to optimize comfort,
-          functionality, and individual preferences.
-        </p>
-      </article>
-      <section>
-        <h2>Feedback form</h2>
-        <form>
-          <label for="email">Email</label>
-          <input id="email" name="email" type="email" />
-          <br />
-          <br />
-          <label for="message">Message</label>
-          <textarea id="message">Leave your message</textarea>
-          <br />
-          <br />
-          <p>Your education</p>
-          <label for="it">IT</label>
-          <input id="it" type="checkbox" name="education" />
-          <label for="economics">Economics</label>
-          <input id="economics" type="checkbox" name="education" />
-          <label for="philology">Philology</label>
-          <input id="philology" type="checkbox" name="education" />
-          <br />
-          <br />
-          <p>Your rate</p>
-          <label for="bad">Bad</label>
-          <input id="bad" type="radio" name="rate" />
-          <label for="good">Good</label>
-          <input id="good" type="radio" name="rate" />
-          <label for="rework-required">Rework required</label>
-          <input id="rework-required" type="radio" name="rate" />
-          <br />
-          <br />
-          <input id="agreement" name="agreement" type="checkbox" />
-          <label for="agreement">I agree to send this data</label>
-          <button type="submit">Submit</button>
-        </form>
-      </section>
-      <section>
-        <table style="border: 1px solid black">
-          <caption>
-            Table with sizes
-          </caption>
-          <thead>
-            <tr>
-              <th>US Men`s</th>
-              <th>US Women`s</th>
-              <th>UK</th>
-              <th>CM</th>
-              <th>JP</th>
-              <th>SKA</th>
-              <th>EU</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>3.5</td>
-              <td>5</td>
-              <td>3</td>
-              <td colspan="3">22.5</td>
-              <td>35.5</td>
-            </tr>
-            <tr>
-              <td>4</td>
-              <td>5.5</td>
-              <td>3.5</td>
-              <td colspan="3">23</td>
-              <td>36</td>
-            </tr>
-            <tr>
-              <td>4.5</td>
-              <td>6</td>
-              <td>4</td>
-              <td colspan="3">23.5</td>
-              <td>36.5</td>
-            </tr>
-            <tr>
-              <td>5</td>
-              <td>6.5</td>
-              <td>4.5</td>
-              <td colspan="3">24</td>
-              <td>37</td>
-            </tr>
-            <tr>
-              <td>5.5</td>
-              <td>7</td>
-              <td>5</td>
-              <td colspan="3">24.5</td>
-              <td>37.5</td>
-            </tr>
-            <tr>
-              <td>6</td>
-              <td>7.5</td>
-              <td>5.5</td>
-              <td colspan="3">25</td>
-              <td>38</td>
-            </tr>
-          </tbody>
-          <tfoot>
-            <tr>
-              <td>All</td>
-              <td>All</td>
-              <td>All</td>
-              <td colspan="3">All</td>
-              <td>All</td>
-            </tr>
-          </tfoot>
-        </table>
-      </section>
+      <div class="demo-sections-wrapper">
+        <aside class="filters-aside"><h2>Filters</h2></aside>
+        <div class="demo-content-wrapper">
+          <article class="demo-article-content">
+            <h2 class="demo-article-title">Sports colthes evolution</h2>
+            <p class="demo-article-text">
+              The evolution of sports clothing has witnessed a remarkable
+              transformation from the early days of cumbersome, everyday attire
+              to today's high-performance, specialized gear.
+            </p>
+            <p class="demo-article-text">
+              In the late 19th century, as organized sports gained popularity,
+              athletes began to adopt specific clothing styles tailored to their
+              respective activities, such as the introduction of white attire in
+              cricket and tennis to combat heat.
+            </p>
+            <p class="demo-article-text">
+              The mid-20th century saw a pivotal shift with the introduction of
+              synthetic materials like nylon, polyester, and spandex,
+              revolutionizing sportswear with their moisture-wicking and stretch
+              properties.
+            </p>
+            <p class="demo-article-text">
+              With the fitness boom in the 1970s and 1980s, form-fitting
+              leotards, tights, and tracksuits became fashionable, combining
+              style with functionality for various exercise routines.
+            </p>
+            <p class="demo-article-text">
+              Today, sports clothing not only prioritizes performance-enhancing
+              fabrics but also embraces sustainability and personalization,
+              offering athletes a wide range of options designed to optimize
+              comfort, functionality, and individual preferences.
+            </p>
+          </article>
+          <section class="feedback-section">
+            <h2 class="feedback-title">Feedback form</h2>
+            <form>
+              <div class="feedback-row">
+                <label for="email" class="feedback-label">Email</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  class="feedback-input"
+                />
+              </div>
+              <div class="feedback-row">
+                <label for="message" class="feedback-label">Message</label>
+                <textarea id="message" class="feedback-input">
+Leave your message</textarea
+                >
+              </div>
+
+              <p class="feedback-subtitle">Your education</p>
+              <div class="feedback-row">
+                <input id="it" type="checkbox" name="education" />
+                <label for="it">IT</label>
+              </div>
+              <div class="feedback-row">
+                <input id="economics" type="checkbox" name="education" />
+                <label for="economics">Economics</label>
+              </div>
+              <div class="feedback-row">
+                <input id="philology" type="checkbox" name="education" />
+                <label for="philology">Philology</label>
+              </div>
+
+              <p class="feedback-subtitle">Your rate</p>
+              <div class="feedback-row">
+                <input id="bad" type="radio" name="rate" />
+                <label for="bad">Bad</label>
+              </div>
+              <div class="feedback-row">
+                <input id="good" type="radio" name="rate" />
+                <label for="good">Good</label>
+              </div>
+              <div class="feedback-row">
+                <input id="rework-required" type="radio" name="rate" />
+                <label for="rework-required">Rework required</label>
+              </div>
+              <div class="feedback-row">
+                <input id="agreement" name="agreement" type="checkbox" />
+                <label for="agreement">I agree to send this data</label>
+              </div>
+              <button type="submit">Submit</button>
+            </form>
+          </section>
+          <section class="table-section">
+            <table class="size-table">
+              <caption class="feedback-subtitle">
+                Table with sizes
+              </caption>
+              <thead>
+                <tr>
+                  <th>US Men`s</th>
+                  <th>US Women`s</th>
+                  <th>UK</th>
+                  <th>CM</th>
+                  <th>JP</th>
+                  <th>SKA</th>
+                  <th>EU</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>3.5</td>
+                  <td>5</td>
+                  <td>3</td>
+                  <td colspan="3">22.5</td>
+                  <td>35.5</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>5.5</td>
+                  <td>3.5</td>
+                  <td colspan="3">23</td>
+                  <td>36</td>
+                </tr>
+                <tr>
+                  <td>4.5</td>
+                  <td>6</td>
+                  <td>4</td>
+                  <td colspan="3">23.5</td>
+                  <td>36.5</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>6.5</td>
+                  <td>4.5</td>
+                  <td colspan="3">24</td>
+                  <td>37</td>
+                </tr>
+                <tr>
+                  <td>5.5</td>
+                  <td>7</td>
+                  <td>5</td>
+                  <td colspan="3">24.5</td>
+                  <td>37.5</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>7.5</td>
+                  <td>5.5</td>
+                  <td colspan="3">25</td>
+                  <td>38</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td>All</td>
+                  <td>All</td>
+                  <td>All</td>
+                  <td colspan="3">All</td>
+                  <td>All</td>
+                </tr>
+              </tfoot>
+            </table>
+          </section>
+        </div>
+      </div>
     </main>
     <footer class="footer">
       <ul class="footer-list">
