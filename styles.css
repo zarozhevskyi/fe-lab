@@ -45,13 +45,16 @@ body {
   margin-left: auto;
 }
 
+.main {
+  margin-top: 65px;
+}
+
 .hero-section {
   height: 300px;
   display: flex;
   position: relative;
   justify-content: center;
   align-items: center;
-  margin-top: 65px;
 }
 
 .hero-text-block {
@@ -174,7 +177,6 @@ body {
 
 .product-sections-wrapper {
   display: flex;
-  margin-top: 65px;
   padding: 24px 48px;
 }
 
@@ -320,4 +322,168 @@ body {
 .size-button:hover {
   opacity: 0.8;
   cursor: pointer;
+}
+
+.cart-sections-wrapper {
+  display: flex;
+  padding: 24px 48px;
+}
+
+.cart-section {
+  flex: 3;
+}
+
+.cart-title {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.cart-list {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cart-list-item {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.cart-list-item-img {
+  height: 100%;
+}
+
+.cart-list-item-content {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.cart-list-item-title {
+  font-size: 16px;
+}
+
+.cart-list-item-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #808080;
+}
+
+.cart-list-item-info-container {
+  display: flex;
+  gap: 8px;
+}
+
+.cart-list-item-price {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.cart-sections-separator {
+  width: 2px;
+  margin: 0 40px;
+  background-color: #d9d9d9;
+}
+
+.total-section {
+  flex: 2;
+}
+
+.total-title {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.total-list {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 16px;
+}
+
+.total-list-item {
+  display: flex;
+  gap: 12px;
+}
+
+.total-list-item-category {
+  width: 150px;
+}
+
+.total-list-item-price {
+  font-weight: 600;
+}
+
+.total-item {
+  display: flex;
+  gap: 12px;
+  margin: 16px 0px 8px 0px;
+}
+
+.total-item-category {
+  width: 150px;
+}
+
+.total-item-price {
+  font-weight: 600;
+}
+
+.total-separator {
+  width: 220px;
+  height: 2px;
+  background-color: #d9d9d9;
+}
+
+.total-form {
+  margin-top: 24px;
+}
+
+.total-form-list {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.total-form-list-item {
+  display: block;
+}
+
+.total-form-list-item-button {
+  width: 220px;
+  height: 40px;
+  border: none;
+  border-radius: 48px;
+  font-size: 20px;
+}
+
+.total-form-list-item-button:hover {
+  cursor: pointer;
+}
+
+.total-form-list-item-button-card {
+  background-color: black;
+  color: white;
+}
+
+.total-form-list-item-button-card:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.total-form-list-item-button-apple-pay {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background-color: white;
+  color: black;
+}
+
+.total-form-list-item-button-apple-pay:hover {
+  border: 1px solid black;
 }

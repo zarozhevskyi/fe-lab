@@ -71,40 +71,124 @@
         <img src="./assets/cart.svg" width="36px" alt="Cart" />
       </a>
     </header>
-    <main>
-      <section>
-        <h2>Cart</h2>
-        <ul>
-          <li>
-            <img
-              src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9bc016bc-cd7a-49cc-a399-47930b00c59f/buty-meskie-dunk-low-retro-dd36JB.png"
-              width="120px"
-              alt="Nike Dunk Low Retro"
-            />
-            <h3>Nike Dunk Low Retro</h3>
-            <p>Men shoes</p>
-            <p>Size: 39</p>
-            <p>Quantity: 1</p>
-            <p>120$</p>
-            <img src="./assets/bin.svg" width="36px" alt="Delete item" />
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h1>Total</h1>
-        <p>Without taxes</p>
-        <p>$100</p>
-        <p>Taxes</p>
-        <p>$20</p>
-        <p>Delivery</p>
-        <p>$20</p>
-        <p>Total</p>
-        <p>$140</p>
-        <form>
-          <button type="submit">Buy with card</button>
-          <button type="submit">Buy with Apple Pay</button>
-        </form>
-      </section>
+    <main class="main">
+      <div class="cart-sections-wrapper">
+        <section class="cart-section">
+          <h2 class="cart-title">Cart</h2>
+          <ul class="cart-list">
+            <li class="cart-list-item">
+              <img
+                width="135px"
+                class="cart-list-item-img"
+                src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9bc016bc-cd7a-49cc-a399-47930b00c59f/buty-meskie-dunk-low-retro-dd36JB.png"
+                alt="Nike Dunk Low Retro"
+              />
+              <div class="cart-list-item-content">
+                <div>
+                  <h3 class="cart-list-item-title">Nike Dunk Low Retro</h3>
+                  <p class="cart-list-item-text">Men shoes</p>
+                  <div class="cart-list-item-info-container">
+                    <p class="cart-list-item-text">Size: 39</p>
+                    <p class="cart-list-item-text">Quantity: 1</p>
+                  </div>
+
+                  <img src="./assets/bin.svg" width="36px" alt="Delete item" />
+                </div>
+
+                <p class="cart-list-item-price">$120</p>
+              </div>
+            </li>
+            <li class="cart-list-item">
+              <img
+                width="135px"
+                class="cart-list-item-img"
+                src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6d1e01d2-278d-4656-bff2-bac3c80efcbd/meska-bluza-z-kapturem-i-zamkiem-calej-dlugosci-made-in-usa-S91FDJ.png"
+                alt="Nike Made in USA"
+              />
+              <div class="cart-list-item-content">
+                <div>
+                  <h3 class="cart-list-item-title">Nike "Made in USA"</h3>
+                  <p class="cart-list-item-text">Men jacket</p>
+                  <div class="cart-list-item-info-container">
+                    <p class="cart-list-item-text">Size: M</p>
+                    <p class="cart-list-item-text">Quantity: 1</p>
+                  </div>
+
+                  <img src="./assets/bin.svg" width="36px" alt="Delete item" />
+                </div>
+
+                <p class="cart-list-item-price">$110</p>
+              </div>
+            </li>
+            <li class="cart-list-item">
+              <img
+                width="135px"
+                class="cart-list-item-img"
+                src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e1604739-9ae7-4506-9eda-af6052c33fdc/parka-meska-paris-saint-germain-Z7N1TG.png"
+                alt="Paris Saint-Germain"
+              />
+              <div class="cart-list-item-content">
+                <div>
+                  <h3 class="cart-list-item-title">Paris Saint-Germain</h3>
+                  <p class="cart-list-item-text">Men jacket</p>
+                  <div class="cart-list-item-info-container">
+                    <p class="cart-list-item-text">Size: M</p>
+                    <p class="cart-list-item-text">Quantity: 1</p>
+                  </div>
+
+                  <img src="./assets/bin.svg" width="36px" alt="Delete item" />
+                </div>
+
+                <p class="cart-list-item-price">$420</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <div class="cart-sections-separator"></div>
+        <section class="total-section">
+          <h1 class="total-title">Total</h1>
+          <ul class="total-list">
+            <li class="total-list-item">
+              <p class="total-list-item-category">Without taxes</p>
+              <p class="total-list-item-price">$541</p>
+            </li>
+            <li class="total-list-item">
+              <p class="total-list-item-category">Taxes</p>
+              <p class="total-list-item-price">$109</p>
+            </li>
+            <li class="total-list-item">
+              <p class="total-list-item-category">Delivery</p>
+              <p class="total-list-item-price">$20</p>
+            </li>
+          </ul>
+          <div class="total-separator"></div>
+          <div class="total-item">
+            <p class="total-item-category">Total</p>
+            <p class="total-item-price">$670</p>
+          </div>
+          <div class="total-separator"></div>
+          <form class="total-form">
+            <ul class="total-form-list">
+              <li class="total-form-list-item">
+                <button
+                  type="submit"
+                  class="total-form-list-item-button total-form-list-item-button-card"
+                >
+                  Buy with card
+                </button>
+              </li>
+              <li class="total-form-list-item">
+                <button
+                  type="submit"
+                  class="total-form-list-item-button total-form-list-item-button-apple-pay"
+                >
+                  Buy with Apple Pay
+                </button>
+              </li>
+            </ul>
+          </form>
+        </section>
+      </div>
     </main>
     <footer class="footer">
       <ul class="footer-list">
