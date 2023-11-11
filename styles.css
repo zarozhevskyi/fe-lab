@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.logo-link {
+  margin-right: 200px;
+}
+
+.nav-links {
+  display: flex;
+  padding: 0;
+}
+
+.nav-links-list-item {
+  display: block;
+}
+
+.nav-links-list-item:not(:last-child) {
+  margin-right: 16px;
+}
+
+.nav-links-list-item-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  height: 40px;
+}
+
+.cart-link {
+  margin-left: auto;
+}
