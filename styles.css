@@ -7,6 +7,10 @@ body {
   padding: 8px 16px;
   align-items: center;
   background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .logo-link {
@@ -46,6 +50,7 @@ body {
   position: relative;
   justify-content: center;
   align-items: center;
+  margin-top: 65px;
 }
 
 .hero-text-block {
@@ -76,4 +81,65 @@ body {
 .hero-text-title {
   font-size: 36px;
   color: white;
+}
+
+.catalog-section {
+  padding: 48px 24px;
+}
+
+.hidden {
+  display: none;
+}
+
+.catalog-list {
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.catalog-list-item {
+  display: block;
+  width: 30%;
+}
+
+.catalog-list-item-link {
+  display: block;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  transition: transform 250ms linear;
+}
+
+.catalog-list-item-link:hover {
+  transform: scale(1.05);
+}
+
+.catalog-list-item-img {
+  width: 100%;
+}
+
+.catalog-list-item-text-block {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 8px 16px;
+}
+
+.catalog-list-item-text-sub-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog-list-item-text {
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.catalog-list-item-sub-text {
+  color: #404040;
+  font-size: 16px;
+  font-weight: 600;
 }
