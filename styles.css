@@ -376,6 +376,7 @@ body {
 }
 
 .cart-list-item-button {
+  display: block;
   background-color: transparent;
   padding: 0;
   border: none;
