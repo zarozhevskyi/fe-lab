@@ -11,6 +11,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 1000;
 }
 
 .logo-link {
@@ -169,4 +170,66 @@ body {
 
 .footer-list-link:hover {
   text-decoration: underline;
+}
+
+.product-sections-wrapper {
+  display: flex;
+  margin-top: 65px;
+  padding: 24px 48px;
+}
+
+.product-photos-section {
+  display: flex;
+  gap: 8px;
+}
+
+.product-photos-list {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.product-photos-list-item {
+  display: block;
+}
+
+.product-photos-list-item[selected] {
+  filter: brightness(0.8);
+}
+
+.product-photos-list-item:hover {
+  cursor: pointer;
+}
+
+.product-photos-list-img {
+  width: 5vw;
+}
+
+.product-photo-container {
+  position: relative;
+}
+
+.product-photo {
+  width: 35vw;
+}
+
+.product-photo-button-container {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
+
+.product-photo-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #303030;
+  background: #e5e5e5;
+  transition: opacity 150ms linear;
+}
+
+.product-photo-button:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
