@@ -503,6 +503,58 @@ body {
 .filters-aside {
   width: 220px;
   border-right: 1px solid black;
+  padding-right: 16px;
+}
+
+.filters-title {
+  margin-bottom: 12px;
+}
+
+.filters-list {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  border-top: 0.5px solid black;
+  border-bottom: 0.5px solid black;
+}
+
+.filters-list-item {
+  display: block;
+  border-top: 0.5px solid black;
+  border-bottom: 0.5px solid black;
+}
+
+.filters-list-item-text-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+.filters-list-item-text-container:hover {
+  cursor: pointer;
+}
+
+.filters-list-item-text {
+  pointer-events: none;
+}
+
+.filters-list-item-arrow {
+  pointer-events: none;
+}
+
+.filters-list-item-sub-list {
+  padding: 0px 8px 8px 8px;
+}
+
+.filters-list-item-sex-list-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.filters-list-item-sub-list-hidden {
+  display: none;
 }
 
 .demo-content-wrapper {
